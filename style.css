@@ -1,0 +1,39 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background: #e3f2fd;
+    text-align: center;
+  }
+  
+  .timer {
+    position: relative;
+    width: 200px;
+    margin: 50px auto;
+  }
+  
+  .progress-ring {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #4CAF50;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background: conic-gradient(
+    #4CAF50 0%, 
+    #4CAF50 var(--progress), 
+    #ddd var(--progress), 
+    #ddd 100%
+  );
+  }
+  
+  #time {
+    font-size: 3rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
